@@ -18,6 +18,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+    <link href='https://fonts.googleapis.com/css?family=Bubblegum Sans' rel='stylesheet'/>
+
       <NavBar />
       <body className={inter.className}>{children}</body>
     </html>

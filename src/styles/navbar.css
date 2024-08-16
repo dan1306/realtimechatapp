@@ -11,7 +11,7 @@
 }
 
 .navbar-elements{
-    width: 80%;
+    width: 75%;
     height: 75%;
     /* background-color: red; */
     display: flex;
@@ -19,6 +19,27 @@
 
 .nav-user-dropdown-and-settings, .nav-logo {
     width: 50%;
+}
+
+.nav-messages-square{
+    height: 80%;
+    width: 2.4rem;
+    color: #5BBCFF;
+}
+
+.nav-logo{
+    display: flex;
+    font-family: 'Bubblegum Sans', sans-serif;
+    font-size: 1.8rem;
+
+}
+
+.nav-titile{
+    position: relative;
+    bottom: 1.5rem;
+    left: .5rem;
+    /* color: #5BBCFF ; */
+
 }
 
 .nav-user-dropdown-and-settings {
@@ -32,6 +53,7 @@
     width: 2.4rem;
     background-color:white;
     border-radius: 50%;
+    cursor: pointer;
     /* border-style: solid; */
     /* border-color: gray;/ */
 }
@@ -42,13 +64,56 @@
     right: 0rem;
     /* bottom: 2rem; */
     width: 13rem;
-    height: 13rem;
+    height: auto;
     background-color: white;
     /* z-index: 1; */
     /* border: .1rem soli; */
     border-radius: 5%;
     box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
-      
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nav-user-name-and-email{
+    margin: .5rem;
+}
 
 
+.line{
+    background-color: #EEEEEE; /* Sets the color of the line */
+    height: 1.5px;            /* Sets the thickness of the line */
+    width: 100%;            /* Makes the line span the full width of its container */
+    border: none;  
+    margin: 0; 
+
+}
+
+.username, .email {
+    margin: 0;
+    font-family: Sans-serif;
+
+}
+
+.username{
+    margin-bottom: .5rem;
+}
+
+.email{
+    font-weight: 100;
+}
+
+.signIn-signOut{
+    margin: .5rem;
+    font-family: Sans-serif;
+
+}
+
+.nav-feed, .nav-create-a-chat, .nav-settings{
+    margin: .7rem .5rem;
+    font-family: Sans-serif;
+}
+
+.hide-user-dropdown{
+    visibility: hidden;
 }

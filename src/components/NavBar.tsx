@@ -1,8 +1,9 @@
 "use client"
 
 import { useState } from "react";
-import "../styles/navbar.css"
+import "../styles/Navbar.css"
 import { MessagesSquare } from 'lucide-react';
+import SearchBar from './SearchBar'
 
  
 const NavBar = () => {
@@ -18,9 +19,9 @@ const NavBar = () => {
                         ChatMeUp
                     </p>
                 </div>
-                {/* <div>
-                    adas
-                </div> */}
+                <div className="nav-searchbar">
+                    <SearchBar />
+                </div>
                 <div className="nav-user-dropdown-and-settings">
                     <div className="nav-user-avatar" onClick={()=> SetdropUserOption(!dropUserOption)}>
 

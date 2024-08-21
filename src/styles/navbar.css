@@ -17,9 +17,9 @@
     display: flex;
 }
 
-.nav-user-dropdown-and-settings, .nav-logo {
+/* .nav-user-dropdown-and-settings, .nav-logo {
     width: 50%;
-}
+} */
 
 .nav-messages-square{
     height: 80%;
@@ -31,6 +31,7 @@
     display: flex;
     font-family: 'Bubblegum Sans', sans-serif;
     font-size: 1.8rem;
+    width: 20%;
 
 }
 
@@ -42,10 +43,19 @@
 
 }
 
+@media screen and (max-width: 800px) {
+    /* Styles for viewports 800px wide and below */
+    .nav-titile{
+        display: none
+    
+    }
+}
+
 .nav-user-dropdown-and-settings {
     display: flex;
     justify-content: flex-end;
     position: relative;
+    width: 20%
 }
 
 .nav-user-avatar{
@@ -72,6 +82,7 @@
     box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
     display: flex;
     flex-direction: column;
+    /* width: 10%; */
 
 }
 
@@ -116,4 +127,12 @@
 
 .hide-user-dropdown{
     visibility: hidden;
+}
+
+.nav-searchbar{
+    width: 60%;
+    justify-content: center;
+    display: flex; 
+    align-items: center; 
+    height: 100%;
 }

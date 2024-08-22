@@ -6,7 +6,7 @@ export default function Home() {
     <div>
       asf
       <p>
-        sdvsdv
+        sdvsdv Google Auth
       </p>
     </div>
   );

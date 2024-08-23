@@ -1,13 +1,14 @@
 .navbar-basic-styling{
     position: fixed;
-    background-color: red;
+    /* background-color: red; */
     top: 0;
-    margin-bottom: 102rem;
+    /* margin-bottom: 102rem; */
     width: 100%;
     height: 4rem;
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);    align-items: center;
     justify-content: center;
     display: flex; 
+    z-index: 1000; /* Ensure it’s above other elements */
 }
 
 .navbar-elements{

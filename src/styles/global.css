@@ -1,4 +1,16 @@
-html{
-    width: 100vw;
-    height: 100vh;
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.app-content {
+    margin-top: 4rem; /* Offset by the height of the navbar */
+    flex: 1;
 }

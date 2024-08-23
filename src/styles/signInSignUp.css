@@ -1,0 +1,128 @@
+.align-items-center {
+    height: 100%;
+    position: relative;
+    /* top: 49px; */
+    /* z-index: -1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 30%; */
+    /* background-color: red; */
+    z-index: 1; 
+
+}
+
+.sign-in-div, .sign-up-div{
+    border: 1px solid black;
+    height: 75%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* z-index: 1000; */
+}
+
+.go-back-div {
+    height: 5%;
+
+}
+
+.sign-in-div-elements, .sign-up-div-elements {
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.go-back-link-div{
+    /* border: 1px  solid black; */
+    /* border-radius: 5px; */
+    height: 5%;
+    /* width: 2.5%; */
+    cursor: pointer;
+    z-index: 3;
+}
+
+@keyframes moveSlightlyLeft {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-3px); /* Adjust the value for desired movement */
+    }
+}
+
+.go-back-icon{
+    color: gray;
+    cursor: pointer;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+
+}
+
+.go-back-icon:hover{
+    background-color: #F5F7F8;
+    border: 2px solid lightgray;
+    animation: moveSlightlyLeft 1s forwards
+
+}
+
+
+.app-logo-on-sign-in-out-component{
+    /* border: 1px solid black; */
+    height: 30%;
+    display: flex;
+    justify-content: center;   /* Center items horizontally */
+    align-items: flex-end;
+
+}
+
+.app-logo{
+    height:3rem;
+    /* size: 4rem; */
+    width: 3rem;
+    color: #5BBCFF;
+}
+
+.welcome-back-div{
+    display: flex;
+    justify-content: center;   /* Center items horizontally */
+    align-items: flex-end;
+    height: 8%;
+    font-weight: bold;
+    font-size: larger;
+    /* border: 1px solid black; */
+
+
+}
+
+.user-aggrement-div{
+    display: flex;
+    justify-content: center;   /* Center items horizontally */
+    align-items: center;
+    height: 20%;
+    /* border: 1px solid black; */
+    text-align: center;
+    font-weight: light;
+    font-size:small
+}
+
+.user-aggrement-text{
+    width: 65%;
+    margin: 0;
+    padding: 0;
+}
+
+.user-auth-form-div{
+    display: flex;
+    justify-content: center;   /* Center items horizontally */
+    align-items: center;
+    height: 8%;
+}
+
+.new-to-app-sign-up{
+    display: flex;
+    justify-content: center;   /* Center items horizontally */
+    align-items: center;
+    height: 15%;
+    font-weight: 300;
+    font-size: medium;
+}

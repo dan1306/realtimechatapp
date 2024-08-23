@@ -1,13 +1,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import '../styles/homes.css'
 
 export default function Home() {
   return (
-    <div>
-      asf
-      <p>
-        sdvsdv Google Auth
-      </p>
+    <div className="home-page">
+        <p>Home</p>
     </div>
   );
 }

@@ -1,0 +1,10 @@
+.home-page{
+    background-color: red;
+    height: 100%;
+    position: relative;
+    top: 49px;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

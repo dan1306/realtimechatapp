@@ -20,8 +20,13 @@ export default function RootLayout({
     <html lang="en">
     <link href='https://fonts.googleapis.com/css?family=Bubblegum Sans' rel='stylesheet'/>
 
-      <NavBar />
-      <body className={inter.className}>{children}</body>
+      
+      <body className={inter.className}>
+        <NavBar />
+        <div className="app-content">
+          {children}
+        </div>
+      </body>
     </html>
   );
 }

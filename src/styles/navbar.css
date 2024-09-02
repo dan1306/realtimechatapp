@@ -4,8 +4,9 @@
     top: 0;
     /* margin-bottom: 102rem; */
     width: 100%;
-    height: 4rem;
-    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);    align-items: center;
+    min-height: 4rem;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);    
+    align-items: center;
     justify-content: center;
     display: flex; 
     z-index: 1000; /* Ensure it’s above other elements */

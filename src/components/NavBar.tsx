@@ -27,7 +27,7 @@ const NavBar = () => {
 
                     </div>
                     <div className={`nav-user-dropdown ${dropUserOption ? '' : 'hide-user-dropdown'}`}>
-                    <div className="nav-user-name-and-email">
+                        <div className="nav-user-name-and-email">
                             <p className="username">
                                 username
                             </p>

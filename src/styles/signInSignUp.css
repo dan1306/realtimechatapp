@@ -13,7 +13,7 @@
 }
 
 .sign-in-div, .sign-up-div{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 75%;
     width: 50%;
     display: flex;
